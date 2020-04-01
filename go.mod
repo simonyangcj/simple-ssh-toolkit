@@ -1,4 +1,4 @@
-module github.com/simonycj/simple-ssh-toolkit
+module github.com/simonyangcj/simple-ssh-toolkit
 
 go 1.13
 
