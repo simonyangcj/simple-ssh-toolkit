@@ -163,5 +163,5 @@ func ScpFile(session *ssh.Session, fileSize int64, file io.Reader, remoteFileNam
 	if err := session.Run(fmt.Sprintf("/usr/bin/scp -qtr %s", remoteFilePath)); err != nil {
 		return 1, err
 	}
-	return 0, nil
+	return exeReturnCode, nil
 }
