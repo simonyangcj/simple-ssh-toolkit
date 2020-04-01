@@ -1,4 +1,4 @@
-module gitlab.sh.99cloud.net/mep/simple-ssh-toolkit
+module github.com/simonycj/simple-ssh-toolkit
 
 go 1.13
 
